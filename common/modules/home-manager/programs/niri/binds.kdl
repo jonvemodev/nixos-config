@@ -5,7 +5,7 @@ binds {
     Mod+Shift+B { spawn "footclient" "-T bluetui" "bluetui"; }
     Mod+Shift+T { spawn "footclient" "-T btm" "btm"; }
     Mod+Shift+M { spawn "footclient" "-T kew" "kew"; }
-    Mod+D { spawn "footclient" "-T fsel" "fsel"; }
+    Mod+D { spawn "footclient" "-T fsel" "fsel" "-t" "-d"; }
     Mod+E { spawn "footclient" "-T yazi" "yazi"; }
     Mod+P { spawn "footclient" "-T pomodoro" "timr-tui" "-m" "pomodoro" "-n" "on"; }
     Mod+T { spawn "kitty"; }
