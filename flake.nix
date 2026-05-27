@@ -30,10 +30,6 @@
       url = "github:way-edges/way-edges";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    zed-editor = {
-      url = "github:jonvemo/zed-editor-flake";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
     fsel = {
       url = "github:Mjoyufull/fsel";
       inputs.nixpkgs.follows = "nixpkgs";
