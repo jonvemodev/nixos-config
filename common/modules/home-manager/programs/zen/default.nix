@@ -6,14 +6,10 @@
     enable = true;
 
     profiles."${user.name}" = {
+      containersForce = true;
       containers = {
-        "personal" = {
-          id = 1;
-          color = "blue";
-          icon = "fingerprint";
-        };
         "work" = {
-          id = 2;
+          id = 1;
           color = "yellow";
           icon = "briefcase";
         };
