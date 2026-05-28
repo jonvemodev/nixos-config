@@ -14,6 +14,10 @@
           icon = "briefcase";
         };
       };
+
+      mods = [
+        "81fcd6b3-f014-4796-988f-6c3cb3874db8" /* Context Menu */
+      ];
     };
     
     policies = {
