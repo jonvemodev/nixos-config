@@ -43,7 +43,7 @@
     polarity = "dark";
 
     opacity = {
-      applications = 1;
+      applications = 1.0;
       desktop = 0.9;
       popups = 0.9;
       terminal = 0.9;
